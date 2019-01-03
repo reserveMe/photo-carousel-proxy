@@ -1,20 +1,26 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "author": "",
-  "license": "",
+  "name": "Carousel proxy",
+  "version": "1.0.0",
+  "description": "Proxy server",
+  "author": "Albert Tu",
+  "license": "MIT",
   "engines": {
     "node": ">=6.13.0"
   },
-  "scripts": {},
+  "scripts": {
+    "server": "nodemon server/server.js"
+  },
   "dependencies": {
+    "axios": "^0.18.0",
+    "morgan": "^1.9.1",
     "webpack": "^4.28.3"
   },
   "devDependencies": {
     "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
     "express": "^4.16.4",
+    "nodemon": "^1.18.9",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   }
